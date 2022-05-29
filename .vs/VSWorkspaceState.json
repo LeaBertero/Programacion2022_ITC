@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Prueba",
+    "\\Prueba\\Prueba"
   ],
-  "SelectedNode": "\\C:\\Users\\Leandro\\Documents\\Programacion_Itc_2022",
+  "SelectedNode": "\\Prueba\\Prueba\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
