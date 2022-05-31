@@ -10,13 +10,18 @@ namespace Matricula.BD.Data
 {
 
     //Representacion de la Base de datos
-    public class BDComtext : DbContext
+    public class BD : DbContext
     {
         public DbSet<Medico> Medicos { get; set; }
 
-        public BDComtext(DbContextOptions options) : base(options)
+        public BD()
         {
-            seguir con el segundo video 
+
+        }
+
+        public BD(DbContextOptions options) : base(options)
+        {
+            
         }
     }
 
