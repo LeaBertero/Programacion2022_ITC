@@ -16,7 +16,7 @@ namespace Matricula.BD.Data
 
         public BDComtext(DbContextOptions options) : base(options)
         {
-
+            seguir con el segundo video 
         }
     }
 
