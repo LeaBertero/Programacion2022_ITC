@@ -110,6 +110,7 @@
             // 
             // BtGenMatriz
             // 
+            this.BtGenMatriz.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtGenMatriz.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtGenMatriz.Location = new System.Drawing.Point(293, 310);
             this.BtGenMatriz.Name = "BtGenMatriz";
@@ -121,6 +122,7 @@
             // 
             // BtSumar
             // 
+            this.BtSumar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtSumar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtSumar.Location = new System.Drawing.Point(347, 392);
             this.BtSumar.Name = "BtSumar";
@@ -139,6 +141,7 @@
             // 
             // BtSalir
             // 
+            this.BtSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtSalir.Location = new System.Drawing.Point(16, 433);
             this.BtSalir.Name = "BtSalir";
@@ -150,6 +153,7 @@
             // 
             // Matrices_true
             // 
+            this.AcceptButton = this.BtSumar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
