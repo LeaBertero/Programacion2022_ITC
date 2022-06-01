@@ -1,0 +1,11 @@
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices_True\Matrices_True\bin\Debug\Matrices_True.exe.config
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices_True\Matrices_True\bin\Debug\Matrices_True.exe
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices_True\Matrices_True\bin\Debug\Matrices_True.pdb
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices_True\Matrices_True\obj\Debug\Matrices_True.csproj.AssemblyReference.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices_True\Matrices_True\obj\Debug\Matrices_True.csproj.SuggestedBindingRedirects.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices_True\Matrices_True\obj\Debug\Matrices_True.Matrices_true.resources
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices_True\Matrices_True\obj\Debug\Matrices_True.Properties.Resources.resources
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices_True\Matrices_True\obj\Debug\Matrices_True.csproj.GenerateResource.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices_True\Matrices_True\obj\Debug\Matrices_True.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices_True\Matrices_True\obj\Debug\Matrices_True.exe
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices_True\Matrices_True\obj\Debug\Matrices_True.pdb
