@@ -3,9 +3,9 @@ C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices\Matrices\bin\Debug\Mat
 C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices\Matrices\bin\Debug\Matrices.pdb
 C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices\Matrices\obj\Debug\Matrices.csproj.AssemblyReference.cache
 C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices\Matrices\obj\Debug\Matrices.csproj.SuggestedBindingRedirects.cache
-C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices\Matrices\obj\Debug\Matrices.Matrices.resources
 C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices\Matrices\obj\Debug\Matrices.Properties.Resources.resources
 C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices\Matrices\obj\Debug\Matrices.csproj.GenerateResource.cache
 C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices\Matrices\obj\Debug\Matrices.csproj.CoreCompileInputs.cache
 C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices\Matrices\obj\Debug\Matrices.exe
 C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices\Matrices\obj\Debug\Matrices.pdb
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matrices\Matrices\obj\Debug\Matrices.AbrirImagen.resources
