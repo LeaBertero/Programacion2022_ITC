@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Matrices
 {
-    public partial class Matrices : Form
+    public partial class AbrirImagen : Form
     {
-        public Matrices()
+        public AbrirImagen()
         {
             InitializeComponent();
         }

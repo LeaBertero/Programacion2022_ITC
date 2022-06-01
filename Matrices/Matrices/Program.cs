@@ -16,7 +16,7 @@ namespace Matrices
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Matrices());
+            Application.Run(new AbrirImagen());
         }
     }
 }

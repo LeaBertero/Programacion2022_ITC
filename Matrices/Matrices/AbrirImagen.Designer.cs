@@ -1,6 +1,6 @@
 ﻿namespace Matrices
 {
-    partial class Matrices
+    partial class AbrirImagen
     {
         /// <summary>
         /// Variable del diseñador necesaria.
