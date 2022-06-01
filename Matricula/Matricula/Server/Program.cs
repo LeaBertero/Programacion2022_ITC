@@ -1,11 +1,18 @@
 using Microsoft.AspNetCore.ResponseCompression;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+
+//Conexion con nla base de datos
+var conn = builder.Configuration.GetConnectionString("conn");
+
+builder.Services.AddDbContext<DB>(opciones =>
+opciones.UseSqlServer(conn));
 
 var app = builder.Build();
 
