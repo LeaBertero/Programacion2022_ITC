@@ -75,21 +75,29 @@ namespace Matrices_True
 
         private void BtSumar_Click(object sender, EventArgs e)
         {
-            int tam = int.Parse(TxDimension.Text);
-            int[,] _matriz1 = new int[tam, tam];
-            int[,] _matriz2 = new int[tam, tam];
-            int[,] _matriz3 = new int[tam, tam];
-            for (int f = 0; f < tam; f++) // filas
+            try
             {
-                for (int c = 0; c < tam; c++) //columnas
+                int tam = int.Parse(TxDimension.Text);
+                int[,] _matriz1 = new int[tam, tam];
+                int[,] _matriz2 = new int[tam, tam];
+                int[,] _matriz3 = new int[tam, tam];
+                for (int f = 0; f < tam; f++) // filas
                 {
-                    _matriz1[f, c] = int.Parse(dataGridView1[f, c].Value.ToString()); // almacena
-                    _matriz2[f, c] = int.Parse(dataGridView2[f, c].Value.ToString());
+                    for (int c = 0; c < tam; c++) //columnas
+                    {
+                        _matriz1[f, c] = int.Parse(dataGridView1[f, c].Value.ToString()); // almacena
+                        _matriz2[f, c] = int.Parse(dataGridView2[f, c].Value.ToString());
 
-                    _matriz3[f, c] = _matriz1[f, c] + _matriz2[f, c];
-                    dataGridView3.CurrentCell = dataGridView3[f, c];
-                    dataGridView3.CurrentCell.Value = _matriz3[f, c];
+                        _matriz3[f, c] = _matriz1[f, c] + _matriz2[f, c];
+                        dataGridView3.CurrentCell = dataGridView3[f, c];
+                        dataGridView3.CurrentCell.Value = _matriz3[f, c];
+                    }
                 }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Ingrese la dimensión de la matriz para sumar");
             }
         }
 
@@ -100,61 +108,85 @@ namespace Matrices_True
 
         private void BtRestar_Click(object sender, EventArgs e)
         {
-            int Tam = int.Parse(TxDimension.Text);
-            int[,] _matriz1 = new int[Tam, Tam];
-            int[,] _matriz2 = new int[Tam, Tam];
-            int[,] _matriz3 = new int[Tam, Tam];
-            for (int fila = 0; fila < Tam; fila++) // filas
+            try
             {
-                for (int c = 0; c < Tam; c++) //columnas
+                int Tam = int.Parse(TxDimension.Text);
+                int[,] _matriz1 = new int[Tam, Tam];
+                int[,] _matriz2 = new int[Tam, Tam];
+                int[,] _matriz3 = new int[Tam, Tam];
+                for (int fila = 0; fila < Tam; fila++) // filas
                 {
-                    _matriz1[fila, c] = int.Parse(dataGridView1[fila, c].Value.ToString()); // almacena
-                    _matriz2[fila, c] = int.Parse(dataGridView2[fila, c].Value.ToString());
+                    for (int c = 0; c < Tam; c++) //columnas
+                    {
+                        _matriz1[fila, c] = int.Parse(dataGridView1[fila, c].Value.ToString()); // almacena
+                        _matriz2[fila, c] = int.Parse(dataGridView2[fila, c].Value.ToString());
 
-                    _matriz3[fila, c] = _matriz1[fila, c] - _matriz2[fila, c];
-                    dataGridView3.CurrentCell = dataGridView3[fila, c];
-                    dataGridView3.CurrentCell.Value = _matriz3[fila, c];
+                        _matriz3[fila, c] = _matriz1[fila, c] - _matriz2[fila, c];
+                        dataGridView3.CurrentCell = dataGridView3[fila, c];
+                        dataGridView3.CurrentCell.Value = _matriz3[fila, c];
+                    }
                 }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Ingrese la dimensión de la matriz para restar");
             }
         }
 
         private void BtMult_Click(object sender, EventArgs e)
         {
-            int Tam = int.Parse(TxDimension.Text);
-            int[,] _matriz1 = new int[Tam, Tam];
-            int[,] _matriz2 = new int[Tam, Tam];
-            int[,] _matriz3 = new int[Tam, Tam];
-            for (int fila = 0; fila < Tam; fila++) // filas
+            try
             {
-                for (int c = 0; c < Tam; c++) //columnas
+                int Tam = int.Parse(TxDimension.Text);
+                int[,] _matriz1 = new int[Tam, Tam];
+                int[,] _matriz2 = new int[Tam, Tam];
+                int[,] _matriz3 = new int[Tam, Tam];
+                for (int fila = 0; fila < Tam; fila++) // filas
                 {
-                    _matriz1[fila, c] = int.Parse(dataGridView1[fila, c].Value.ToString()); // almacena
-                    _matriz2[fila, c] = int.Parse(dataGridView2[fila, c].Value.ToString());
+                    for (int c = 0; c < Tam; c++) //columnas
+                    {
+                        _matriz1[fila, c] = int.Parse(dataGridView1[fila, c].Value.ToString()); // almacena
+                        _matriz2[fila, c] = int.Parse(dataGridView2[fila, c].Value.ToString());
 
-                    _matriz3[fila, c] = _matriz1[fila, c] * _matriz2[fila, c];
-                    dataGridView3.CurrentCell = dataGridView3[fila, c];
-                    dataGridView3.CurrentCell.Value = _matriz3[fila, c];
+                        _matriz3[fila, c] = _matriz1[fila, c] * _matriz2[fila, c];
+                        dataGridView3.CurrentCell = dataGridView3[fila, c];
+                        dataGridView3.CurrentCell.Value = _matriz3[fila, c];
+                    }
                 }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Ingrese la dimensión de la matriz para multiplicar");
             }
         }
 
         private void BtDiv_Click(object sender, EventArgs e)
         {
-            int Tam = int.Parse(TxDimension.Text);
-            int[,] _matriz1 = new int[Tam, Tam];
-            int[,] _matriz2 = new int[Tam, Tam];
-            int[,] _matriz3 = new int[Tam, Tam];
-            for (int fila = 0; fila < Tam; fila++) // filas
+            try
             {
-                for (int c = 0; c < Tam; c++) //columnas
+                int Tam = int.Parse(TxDimension.Text);
+                int[,] _matriz1 = new int[Tam, Tam];
+                int[,] _matriz2 = new int[Tam, Tam];
+                int[,] _matriz3 = new int[Tam, Tam];
+                for (int fila = 0; fila < Tam; fila++) // filas
                 {
-                    _matriz1[fila, c] = int.Parse(dataGridView1[fila, c].Value.ToString()); // almacena
-                    _matriz2[fila, c] = int.Parse(dataGridView2[fila, c].Value.ToString());
+                    for (int c = 0; c < Tam; c++) //columnas
+                    {
+                        _matriz1[fila, c] = int.Parse(dataGridView1[fila, c].Value.ToString()); // almacena
+                        _matriz2[fila, c] = int.Parse(dataGridView2[fila, c].Value.ToString());
 
-                    _matriz3[fila, c] = _matriz1[fila, c] / _matriz2[fila, c];
-                    dataGridView3.CurrentCell = dataGridView3[fila, c];
-                    dataGridView3.CurrentCell.Value = _matriz3[fila, c];
+                        _matriz3[fila, c] = _matriz1[fila, c] / _matriz2[fila, c];
+                        dataGridView3.CurrentCell = dataGridView3[fila, c];
+                        dataGridView3.CurrentCell.Value = _matriz3[fila, c];
+                    }
                 }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Ingrese la dimensión de la matriz para dividir");
             }
         }
     }
