@@ -30,6 +30,7 @@
         {
             this.Bt_Salir = new System.Windows.Forms.Button();
             this.TxLetra = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Bt_Salir
@@ -49,12 +50,22 @@
             this.TxLetra.Size = new System.Drawing.Size(100, 20);
             this.TxLetra.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(27, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(113, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Ingrese \"S\" - para salir";
+            // 
             // Prueba_bt_salr
             // 
             this.AcceptButton = this.Bt_Salir;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(418, 217);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.TxLetra);
             this.Controls.Add(this.Bt_Salir);
             this.Name = "Prueba_bt_salr";
@@ -69,6 +80,7 @@
 
         private System.Windows.Forms.Button Bt_Salir;
         private System.Windows.Forms.TextBox TxLetra;
+        private System.Windows.Forms.Label label1;
     }
 }
 
