@@ -18,12 +18,14 @@ namespace Matricula.BD.Data
         {
 
         }
-
         public BD(DbContextOptions options) : base(options)
         {
             
         }
     }
-
-
 }
+       
+
+
+
+
