@@ -11,8 +11,8 @@ builder.Services.AddRazorPages();
 //Conexion con nla base de datos
 var conn = builder.Configuration.GetConnectionString("conn");
 
-builder.Services.AddDbContext<DB>(opciones =>
-opciones.UseSqlServer(conn));
+
+
 
 var app = builder.Build();
 
