@@ -1,0 +1,11 @@
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Prueba_boton_salir\Prueba_boton_salir\bin\Debug\Prueba_boton_salir.exe.config
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Prueba_boton_salir\Prueba_boton_salir\bin\Debug\Prueba_boton_salir.exe
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Prueba_boton_salir\Prueba_boton_salir\bin\Debug\Prueba_boton_salir.pdb
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Prueba_boton_salir\Prueba_boton_salir\obj\Debug\Prueba_boton_salir.csproj.AssemblyReference.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Prueba_boton_salir\Prueba_boton_salir\obj\Debug\Prueba_boton_salir.csproj.SuggestedBindingRedirects.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Prueba_boton_salir\Prueba_boton_salir\obj\Debug\Prueba_boton_salir.Properties.Resources.resources
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Prueba_boton_salir\Prueba_boton_salir\obj\Debug\Prueba_boton_salir.Prueba_bt_salr.resources
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Prueba_boton_salir\Prueba_boton_salir\obj\Debug\Prueba_boton_salir.csproj.GenerateResource.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Prueba_boton_salir\Prueba_boton_salir\obj\Debug\Prueba_boton_salir.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Prueba_boton_salir\Prueba_boton_salir\obj\Debug\Prueba_boton_salir.exe
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Prueba_boton_salir\Prueba_boton_salir\obj\Debug\Prueba_boton_salir.pdb
