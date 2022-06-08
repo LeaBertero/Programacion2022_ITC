@@ -22,9 +22,9 @@ namespace Matrices_True
             dataGridView1.Columns.Clear();
             dataGridView2.Columns.Clear();
             dataGridView3.Columns.Clear();
-            int tam = int.Parse(TxDimension.Text);
-            int i = 1;
-            while (i <= tam)
+            int tamaño = int.Parse(TxDimension.Text);
+            int incremento = 1;
+            while (incremento <= tamaño)
             {
                 DataGridViewColumn columna = new DataGridViewColumn(new DataGridViewTextBoxCell());
                 columna.Width = 25; //ancho
@@ -35,23 +35,23 @@ namespace Matrices_True
                 DataGridViewColumn columna3 = new DataGridViewColumn(new DataGridViewTextBoxCell());
                 columna3.Width = 25;
                 this.dataGridView3.Columns.Add(columna3);
-                i++;
+                incremento++;
             }
 
-            int[,] _matriz1 = new int[tam, tam]; // se declaran variables de tipo matriz
-            int[,] _matriz2 = new int[tam, tam];
-            int[,] _matriz3 = new int[tam, tam];
-            dataGridView1.Rows.Add(tam);
-            dataGridView2.Rows.Add(tam);
-            dataGridView3.Rows.Add(tam);
+            int[,] _matriz1 = new int[tamaño, tamaño]; // se declaran variables de tipo matriz
+            int[,] _matriz2 = new int[tamaño, tamaño];
+            int[,] _matriz3 = new int[tamaño, tamaño];
+            dataGridView1.Rows.Add(tamaño);
+            dataGridView2.Rows.Add(tamaño);
+            dataGridView3.Rows.Add(tamaño);
             Random r = new Random();
             // genera un dato de manera aleatoria, se utiliza para revolver los datos llena los datos de las casillas
             // vacias.
 
 
-            for (int f = 0; f < tam; f++)
+            for (int f = 0; f < tamaño; f++)
             {
-                for (int c = 0; c < tam; c++)
+                for (int c = 0; c < tamaño; c++)
                 {
                     _matriz1[f, c] = r.Next(10); // valor inicial que agarra valores del 0 al 10
 
