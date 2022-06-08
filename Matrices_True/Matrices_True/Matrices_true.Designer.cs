@@ -39,6 +39,9 @@
             this.BtSumar = new System.Windows.Forms.Button();
             this.TxDimension = new System.Windows.Forms.TextBox();
             this.BtSalir = new System.Windows.Forms.Button();
+            this.BtRestar = new System.Windows.Forms.Button();
+            this.BtMult = new System.Windows.Forms.Button();
+            this.BtDiv = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
@@ -124,9 +127,9 @@
             // 
             this.BtSumar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtSumar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtSumar.Location = new System.Drawing.Point(347, 392);
+            this.BtSumar.Location = new System.Drawing.Point(169, 372);
             this.BtSumar.Name = "BtSumar";
-            this.BtSumar.Size = new System.Drawing.Size(124, 43);
+            this.BtSumar.Size = new System.Drawing.Size(99, 33);
             this.BtSumar.TabIndex = 8;
             this.BtSumar.Text = "Sumar";
             this.BtSumar.UseVisualStyleBackColor = true;
@@ -145,11 +148,47 @@
             this.BtSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtSalir.Location = new System.Drawing.Point(16, 433);
             this.BtSalir.Name = "BtSalir";
-            this.BtSalir.Size = new System.Drawing.Size(124, 43);
+            this.BtSalir.Size = new System.Drawing.Size(60, 50);
             this.BtSalir.TabIndex = 10;
             this.BtSalir.Text = "Salir";
             this.BtSalir.UseVisualStyleBackColor = true;
             this.BtSalir.Click += new System.EventHandler(this.BtSalir_Click);
+            // 
+            // BtRestar
+            // 
+            this.BtRestar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtRestar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtRestar.Location = new System.Drawing.Point(302, 372);
+            this.BtRestar.Name = "BtRestar";
+            this.BtRestar.Size = new System.Drawing.Size(99, 33);
+            this.BtRestar.TabIndex = 11;
+            this.BtRestar.Text = "Restar";
+            this.BtRestar.UseVisualStyleBackColor = true;
+            this.BtRestar.Click += new System.EventHandler(this.BtRestar_Click);
+            // 
+            // BtMult
+            // 
+            this.BtMult.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtMult.Location = new System.Drawing.Point(430, 372);
+            this.BtMult.Name = "BtMult";
+            this.BtMult.Size = new System.Drawing.Size(99, 33);
+            this.BtMult.TabIndex = 12;
+            this.BtMult.Text = "Multiplicar";
+            this.BtMult.UseVisualStyleBackColor = true;
+            this.BtMult.Click += new System.EventHandler(this.BtMult_Click);
+            // 
+            // BtDiv
+            // 
+            this.BtDiv.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtDiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtDiv.Location = new System.Drawing.Point(554, 372);
+            this.BtDiv.Name = "BtDiv";
+            this.BtDiv.Size = new System.Drawing.Size(99, 33);
+            this.BtDiv.TabIndex = 13;
+            this.BtDiv.Text = "Dividir";
+            this.BtDiv.UseVisualStyleBackColor = true;
+            this.BtDiv.Click += new System.EventHandler(this.BtDiv_Click);
             // 
             // Matrices_true
             // 
@@ -158,6 +197,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ClientSize = new System.Drawing.Size(830, 495);
+            this.Controls.Add(this.BtDiv);
+            this.Controls.Add(this.BtMult);
+            this.Controls.Add(this.BtRestar);
             this.Controls.Add(this.BtSalir);
             this.Controls.Add(this.TxDimension);
             this.Controls.Add(this.BtSumar);
@@ -193,6 +235,9 @@
         private System.Windows.Forms.Button BtSumar;
         private System.Windows.Forms.TextBox TxDimension;
         private System.Windows.Forms.Button BtSalir;
+        private System.Windows.Forms.Button BtRestar;
+        private System.Windows.Forms.Button BtMult;
+        private System.Windows.Forms.Button BtDiv;
     }
 }
 
