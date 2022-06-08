@@ -37,6 +37,7 @@ namespace Matrices_True
                 this.dataGridView3.Columns.Add(columna3);
                 i++;
             }
+
             int[,] _matriz1 = new int[tam, tam]; // se declaran variables de tipo matriz
             int[,] _matriz2 = new int[tam, tam];
             int[,] _matriz3 = new int[tam, tam];
@@ -46,6 +47,8 @@ namespace Matrices_True
             Random r = new Random();
             // genera un dato de manera aleatoria, se utiliza para revolver los datos llena los datos de las casillas
             // vacias.
+
+
             for (int f = 0; f < tam; f++)
             {
                 for (int c = 0; c < tam; c++)
