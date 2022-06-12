@@ -33,22 +33,23 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.BtSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btseleccion
             // 
-            this.Btseleccion.Location = new System.Drawing.Point(104, 104);
+            this.Btseleccion.Location = new System.Drawing.Point(51, 40);
             this.Btseleccion.Name = "Btseleccion";
             this.Btseleccion.Size = new System.Drawing.Size(75, 23);
             this.Btseleccion.TabIndex = 0;
-            this.Btseleccion.Text = "button1";
+            this.Btseleccion.Text = "Start";
             this.Btseleccion.UseVisualStyleBackColor = true;
             this.Btseleccion.Click += new System.EventHandler(this.Btseleccion_Click);
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(235, 110);
+            this.checkBox1.Location = new System.Drawing.Point(182, 46);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(80, 17);
             this.checkBox1.TabIndex = 1;
@@ -58,7 +59,7 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(235, 152);
+            this.checkBox2.Location = new System.Drawing.Point(182, 72);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(80, 17);
             this.checkBox2.TabIndex = 2;
@@ -68,7 +69,7 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(235, 200);
+            this.checkBox3.Location = new System.Drawing.Point(182, 99);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(80, 17);
             this.checkBox3.TabIndex = 3;
@@ -78,24 +79,37 @@
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(235, 242);
+            this.checkBox4.Location = new System.Drawing.Point(182, 125);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(80, 17);
             this.checkBox4.TabIndex = 4;
             this.checkBox4.Text = "checkBox4";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
+            // BtSalir
+            // 
+            this.BtSalir.Location = new System.Drawing.Point(262, 182);
+            this.BtSalir.Name = "BtSalir";
+            this.BtSalir.Size = new System.Drawing.Size(75, 23);
+            this.BtSalir.TabIndex = 5;
+            this.BtSalir.Text = "Salir";
+            this.BtSalir.UseMnemonic = false;
+            this.BtSalir.UseVisualStyleBackColor = true;
+            this.BtSalir.Click += new System.EventHandler(this.BtSalir_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(349, 217);
+            this.Controls.Add(this.BtSalir);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.Btseleccion);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -109,6 +123,7 @@
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.Button BtSalir;
     }
 }
 
