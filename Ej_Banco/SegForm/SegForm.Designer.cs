@@ -29,7 +29,32 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SegForm));
+            this.BtSalir = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // BtSalir
+            // 
+            this.BtSalir.BackColor = System.Drawing.Color.Sienna;
+            this.BtSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtSalir.Location = new System.Drawing.Point(691, 398);
+            this.BtSalir.Name = "BtSalir";
+            this.BtSalir.Size = new System.Drawing.Size(81, 40);
+            this.BtSalir.TabIndex = 5;
+            this.BtSalir.Text = "Volver";
+            this.BtSalir.UseVisualStyleBackColor = false;
+            this.BtSalir.Click += new System.EventHandler(this.BtSalir_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(23, 22);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(164, 28);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Bienvenido, ";
             // 
             // SegForm
             // 
@@ -37,15 +62,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Chocolate;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.BtSalir);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SegForm";
             this.Text = "Banco";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button BtSalir;
+        private System.Windows.Forms.Label label2;
     }
 }
 

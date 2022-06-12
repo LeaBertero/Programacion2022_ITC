@@ -24,8 +24,17 @@ namespace Ej_Banco
 
         private void BtSolicitar_Click(object sender, EventArgs e)
         {
-            Form PrmForm = new FrmCalculadora();
-            Caculadora.ShowDialog();
+            
+        }
+
+        private void Banco_Load(object sender, EventArgs e)
+        {
+            BtSolicitar.Enabled = false;
+        }
+
+        private void TxNombre_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
