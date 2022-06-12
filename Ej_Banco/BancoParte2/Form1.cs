@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ej_Banco
+namespace BancoParte2
 {
-    public partial class Banco : Form
+    public partial class Form1 : Form
     {
-        public Banco()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void BtSalir_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }
