@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BancoParte2
+namespace SegForm
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace BancoParte2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Solicitar());
+            Application.Run(new SegForm());
         }
     }
 }

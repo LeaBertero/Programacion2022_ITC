@@ -1,6 +1,6 @@
-﻿namespace BancoParte2
+﻿namespace SegForm
 {
-    partial class Form1
+    partial class SegForm
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,19 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SegForm));
             this.SuspendLayout();
             // 
-            // Form1
+            // SegForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Chocolate;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.Name = "Form1";
-            this.Opacity = 0.8D;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Name = "SegForm";
             this.Text = "Banco";
             this.ResumeLayout(false);
 

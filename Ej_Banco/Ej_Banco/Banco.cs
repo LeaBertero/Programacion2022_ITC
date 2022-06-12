@@ -21,5 +21,11 @@ namespace Ej_Banco
         {
             this.Close();
         }
+
+        private void BtSolicitar_Click(object sender, EventArgs e)
+        {
+            Form PrmForm = new FrmCalculadora();
+            Caculadora.ShowDialog();
+        }
     }
 }

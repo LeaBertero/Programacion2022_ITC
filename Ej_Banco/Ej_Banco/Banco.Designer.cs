@@ -75,6 +75,7 @@
             this.BtSolicitar.TabIndex = 3;
             this.BtSolicitar.Text = "Solicitar préstamo";
             this.BtSolicitar.UseVisualStyleBackColor = false;
+            this.BtSolicitar.Click += new System.EventHandler(this.BtSolicitar_Click);
             // 
             // BtSalir
             // 

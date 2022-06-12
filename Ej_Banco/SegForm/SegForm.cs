@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BancoParte2
+namespace SegForm
 {
-    public partial class Form1 : Form
+    public partial class SegForm : Form
     {
-        public Form1()
+        public SegForm()
         {
             InitializeComponent();
         }
