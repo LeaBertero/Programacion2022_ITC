@@ -36,6 +36,11 @@ namespace PruebaSuma
 
             //return res;
         }
+
+        private void BtSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
 

@@ -33,6 +33,7 @@
             this.TxtNum2 = new System.Windows.Forms.TextBox();
             this.TxtRes = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.BtSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtSuma
@@ -75,17 +76,31 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "El resultado es:";
             // 
+            // BtSalir
+            // 
+            this.BtSalir.Location = new System.Drawing.Point(428, 176);
+            this.BtSalir.Name = "BtSalir";
+            this.BtSalir.Size = new System.Drawing.Size(53, 40);
+            this.BtSalir.TabIndex = 5;
+            this.BtSalir.Text = "Salir";
+            this.BtSalir.UseVisualStyleBackColor = true;
+            this.BtSalir.Click += new System.EventHandler(this.BtSalir_Click);
+            // 
             // Suma
             // 
+            this.AcceptButton = this.BtSuma;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(493, 228);
+            this.Controls.Add(this.BtSalir);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtRes);
             this.Controls.Add(this.TxtNum2);
             this.Controls.Add(this.TxtNum1);
             this.Controls.Add(this.BtSuma);
+            this.MaximizeBox = false;
             this.Name = "Suma";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Prueba_Suma";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -99,6 +114,7 @@
         private System.Windows.Forms.TextBox TxtNum2;
         private System.Windows.Forms.TextBox TxtRes;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button BtSalir;
     }
 }
 
