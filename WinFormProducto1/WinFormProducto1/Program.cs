@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SegForm
+namespace WinFormProducto1
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace SegForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Siguiente());
+            Application.Run(new Form1());
         }
     }
 }

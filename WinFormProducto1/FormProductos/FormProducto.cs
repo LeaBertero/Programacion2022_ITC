@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SegForm
+namespace FormProductos
 {
-    public partial class Siguiente : Form
+    public partial class FormProducto : Form
     {
-        public Siguiente()
+        public FormProducto()
         {
             InitializeComponent();
-        }
-
-        private void BtSalir_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

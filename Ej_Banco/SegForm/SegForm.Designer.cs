@@ -1,6 +1,6 @@
 ﻿namespace SegForm
 {
-    partial class SegForm
+    partial class Siguiente
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SegForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Siguiente));
             this.BtSalir = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -56,7 +56,7 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Bienvenido, ";
             // 
-            // SegForm
+            // Siguiente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -66,7 +66,7 @@
             this.Controls.Add(this.BtSalir);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "SegForm";
+            this.Name = "Siguiente";
             this.Text = "Banco";
             this.ResumeLayout(false);
             this.PerformLayout();

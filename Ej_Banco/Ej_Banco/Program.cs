@@ -16,7 +16,7 @@ namespace Ej_Banco
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Banco());
+            Application.Run(new Inicio());
         }
     }
 }

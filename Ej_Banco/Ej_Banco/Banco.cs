@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ej_Banco
 {
-    public partial class Banco : Form
+    public partial class Inicio : Form
     {
-        public Banco()
+        public Inicio()
         {
             InitializeComponent();
         }
@@ -22,10 +22,7 @@ namespace Ej_Banco
             this.Close();
         }
 
-        private void BtSolicitar_Click(object sender, EventArgs e)
-        {
-            
-        }
+        
 
         private void Banco_Load(object sender, EventArgs e)
         {
@@ -34,7 +31,7 @@ namespace Ej_Banco
 
         private void TxNombre_TextChanged(object sender, EventArgs e)
         {
-
+            controlBotones();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Ej_Banco
 {
-    partial class Banco
+    partial class Inicio
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Banco));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.TxNombre = new System.Windows.Forms.TextBox();
@@ -81,7 +81,6 @@
             this.BtSolicitar.TabIndex = 3;
             this.BtSolicitar.Text = "Solicitar préstamo";
             this.BtSolicitar.UseVisualStyleBackColor = false;
-            this.BtSolicitar.Click += new System.EventHandler(this.BtSolicitar_Click);
             // 
             // BtSalir
             // 
@@ -110,7 +109,7 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // Banco
+            // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -124,7 +123,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Banco";
+            this.Name = "Inicio";
             this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Banco";
