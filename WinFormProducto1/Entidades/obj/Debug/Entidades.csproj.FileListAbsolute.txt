@@ -1,0 +1,6 @@
+C:\Users\Leandro\Documents\Programacion_Itc_2022\WinFormProducto1\Entidades\bin\Debug\Entidades.dll
+C:\Users\Leandro\Documents\Programacion_Itc_2022\WinFormProducto1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Leandro\Documents\Programacion_Itc_2022\WinFormProducto1\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\WinFormProducto1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\WinFormProducto1\Entidades\obj\Debug\Entidades.dll
+C:\Users\Leandro\Documents\Programacion_Itc_2022\WinFormProducto1\Entidades\obj\Debug\Entidades.pdb

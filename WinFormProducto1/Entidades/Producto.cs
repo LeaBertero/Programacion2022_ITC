@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    internal class Producto
+    public class Producto
     {
         #region Atributos
         private int codigo;
