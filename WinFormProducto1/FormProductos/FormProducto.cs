@@ -23,7 +23,7 @@ namespace FormProductos
             Producto Nuevoprod;
             Nuevoprod = new Producto(int.Parse(TxtCodigo.Text), TxtDesc.Text);
 
-            MessageBox.Show("Producto instanciado");
+            MessageBox.Show("Producto ingresado");
         }
 
         private void BtSalir_Click(object sender, EventArgs e)
