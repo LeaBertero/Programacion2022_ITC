@@ -26,7 +26,7 @@ namespace Prueba_boton_salir
             }
             if (TxLetra.Text == "")
             {
-                MessageBox.Show(TxLetra.Text = "Imposible salir");
+                MessageBox.Show("Imposible salir");
                 TxLetra.Focus();
                 TxLetra.SelectAll();
             }

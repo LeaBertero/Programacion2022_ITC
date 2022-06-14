@@ -40,17 +40,19 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.LbCodMovimiento = new System.Windows.Forms.Label();
-            this.LbDescMovimiento = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.RadIngreso = new System.Windows.Forms.RadioButton();
-            this.RadEgreso = new System.Windows.Forms.RadioButton();
-            this.BtAceptar = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.Lb_StockMovimiento = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.Lb_StockMovimiento = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.BtAceptar = new System.Windows.Forms.Button();
+            this.RadEgreso = new System.Windows.Forms.RadioButton();
+            this.RadIngreso = new System.Windows.Forms.RadioButton();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.LbDescMovimiento = new System.Windows.Forms.Label();
+            this.LbCodMovimiento = new System.Windows.Forms.Label();
+            this.TxLetra = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_producto)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -122,16 +124,17 @@
             // 
             this.Dgv_producto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Dgv_producto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Dgv_producto.Location = new System.Drawing.Point(13, 265);
+            this.Dgv_producto.Location = new System.Drawing.Point(12, 251);
             this.Dgv_producto.Name = "Dgv_producto";
             this.Dgv_producto.Size = new System.Drawing.Size(538, 242);
             this.Dgv_producto.TabIndex = 7;
             // 
             // BtSalir
             // 
-            this.BtSalir.Location = new System.Drawing.Point(472, 513);
+            this.BtSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtSalir.Location = new System.Drawing.Point(203, 553);
             this.BtSalir.Name = "BtSalir";
-            this.BtSalir.Size = new System.Drawing.Size(75, 23);
+            this.BtSalir.Size = new System.Drawing.Size(75, 31);
             this.BtSalir.TabIndex = 8;
             this.BtSalir.Text = "Salir";
             this.BtSalir.UseVisualStyleBackColor = true;
@@ -160,7 +163,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(530, 158);
+            this.tabPage1.Size = new System.Drawing.Size(530, 207);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             // 
@@ -185,55 +188,60 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             // 
-            // LbCodMovimiento
+            // label7
             // 
-            this.LbCodMovimiento.AutoSize = true;
-            this.LbCodMovimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbCodMovimiento.Location = new System.Drawing.Point(147, 27);
-            this.LbCodMovimiento.Name = "LbCodMovimiento";
-            this.LbCodMovimiento.Size = new System.Drawing.Size(0, 16);
-            this.LbCodMovimiento.TabIndex = 0;
-            this.LbCodMovimiento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(17, 94);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(46, 16);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Stock";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LbDescMovimiento
+            // Lb_StockMovimiento
             // 
-            this.LbDescMovimiento.AutoSize = true;
-            this.LbDescMovimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbDescMovimiento.Location = new System.Drawing.Point(147, 57);
-            this.LbDescMovimiento.Name = "LbDescMovimiento";
-            this.LbDescMovimiento.Size = new System.Drawing.Size(0, 16);
-            this.LbDescMovimiento.TabIndex = 1;
-            this.LbDescMovimiento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Lb_StockMovimiento.AutoSize = true;
+            this.Lb_StockMovimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lb_StockMovimiento.Location = new System.Drawing.Point(147, 94);
+            this.Lb_StockMovimiento.Name = "Lb_StockMovimiento";
+            this.Lb_StockMovimiento.Size = new System.Drawing.Size(0, 16);
+            this.Lb_StockMovimiento.TabIndex = 9;
+            this.Lb_StockMovimiento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // label5
             // 
-            this.textBox1.Location = new System.Drawing.Point(104, 171);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(17, 57);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(90, 16);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Descripción";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label6
+            // label4
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(17, 172);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 16);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "Cantidad";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(17, 27);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(57, 16);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Código";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // RadIngreso
+            // BtAceptar
             // 
-            this.RadIngreso.AutoSize = true;
-            this.RadIngreso.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.RadIngreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadIngreso.Location = new System.Drawing.Point(315, 133);
-            this.RadIngreso.Name = "RadIngreso";
-            this.RadIngreso.Size = new System.Drawing.Size(77, 20);
-            this.RadIngreso.TabIndex = 4;
-            this.RadIngreso.TabStop = true;
-            this.RadIngreso.Text = "Ingreso";
-            this.RadIngreso.UseVisualStyleBackColor = false;
+            this.BtAceptar.BackColor = System.Drawing.Color.DodgerBlue;
+            this.BtAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtAceptar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtAceptar.Location = new System.Drawing.Point(423, 133);
+            this.BtAceptar.Name = "BtAceptar";
+            this.BtAceptar.Size = new System.Drawing.Size(82, 55);
+            this.BtAceptar.TabIndex = 6;
+            this.BtAceptar.Text = "Aceptar";
+            this.BtAceptar.UseVisualStyleBackColor = false;
             // 
             // RadEgreso
             // 
@@ -248,60 +256,73 @@
             this.RadEgreso.Text = "Egreso";
             this.RadEgreso.UseVisualStyleBackColor = false;
             // 
-            // BtAceptar
+            // RadIngreso
             // 
-            this.BtAceptar.BackColor = System.Drawing.Color.DodgerBlue;
-            this.BtAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtAceptar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtAceptar.Location = new System.Drawing.Point(423, 133);
-            this.BtAceptar.Name = "BtAceptar";
-            this.BtAceptar.Size = new System.Drawing.Size(82, 55);
-            this.BtAceptar.TabIndex = 6;
-            this.BtAceptar.Text = "Aceptar";
-            this.BtAceptar.UseVisualStyleBackColor = false;
+            this.RadIngreso.AutoSize = true;
+            this.RadIngreso.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.RadIngreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RadIngreso.Location = new System.Drawing.Point(315, 133);
+            this.RadIngreso.Name = "RadIngreso";
+            this.RadIngreso.Size = new System.Drawing.Size(77, 20);
+            this.RadIngreso.TabIndex = 4;
+            this.RadIngreso.TabStop = true;
+            this.RadIngreso.Text = "Ingreso";
+            this.RadIngreso.UseVisualStyleBackColor = false;
             // 
-            // label4
+            // label6
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(17, 27);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 16);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Código";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(17, 172);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(69, 16);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Cantidad";
             // 
-            // label5
+            // textBox1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(17, 57);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 16);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Descripción";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.textBox1.Location = new System.Drawing.Point(104, 171);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 2;
             // 
-            // Lb_StockMovimiento
+            // LbDescMovimiento
             // 
-            this.Lb_StockMovimiento.AutoSize = true;
-            this.Lb_StockMovimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lb_StockMovimiento.Location = new System.Drawing.Point(147, 94);
-            this.Lb_StockMovimiento.Name = "Lb_StockMovimiento";
-            this.Lb_StockMovimiento.Size = new System.Drawing.Size(0, 16);
-            this.Lb_StockMovimiento.TabIndex = 9;
-            this.Lb_StockMovimiento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LbDescMovimiento.AutoSize = true;
+            this.LbDescMovimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbDescMovimiento.Location = new System.Drawing.Point(147, 57);
+            this.LbDescMovimiento.Name = "LbDescMovimiento";
+            this.LbDescMovimiento.Size = new System.Drawing.Size(0, 16);
+            this.LbDescMovimiento.TabIndex = 1;
+            this.LbDescMovimiento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label7
+            // LbCodMovimiento
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(17, 94);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(46, 16);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Stock";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LbCodMovimiento.AutoSize = true;
+            this.LbCodMovimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbCodMovimiento.Location = new System.Drawing.Point(147, 27);
+            this.LbCodMovimiento.Name = "LbCodMovimiento";
+            this.LbCodMovimiento.Size = new System.Drawing.Size(0, 16);
+            this.LbCodMovimiento.TabIndex = 0;
+            this.LbCodMovimiento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // TxLetra
+            // 
+            this.TxLetra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxLetra.Location = new System.Drawing.Point(293, 557);
+            this.TxLetra.Name = "TxLetra";
+            this.TxLetra.Size = new System.Drawing.Size(84, 22);
+            this.TxLetra.TabIndex = 10;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(218, 519);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(159, 16);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "Ingrese \"S\", para salir";
             // 
             // FormProducto
             // 
@@ -309,7 +330,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(563, 539);
+            this.ClientSize = new System.Drawing.Size(563, 601);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.TxLetra);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.BtSalir);
             this.Controls.Add(this.Dgv_producto);
@@ -327,6 +350,7 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -355,5 +379,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label Lb_StockMovimiento;
+        private System.Windows.Forms.TextBox TxLetra;
+        private System.Windows.Forms.Label label8;
     }
 }

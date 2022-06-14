@@ -32,7 +32,20 @@ namespace FormProductos
 
         private void BtSalir_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if (TxLetra.Text == "S")
+            {
+                Close();
+            }
+            if (TxLetra.Text == "")
+            {
+                MessageBox.Show("Imposible salir");
+                TxLetra.Focus();
+                TxLetra.SelectAll();
+            }
+            else
+            {
+                MessageBox.Show("Palabra incorrecta - Imposible salir");
+            }
         }
     }
 }
