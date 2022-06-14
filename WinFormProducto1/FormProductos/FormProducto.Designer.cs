@@ -49,6 +49,8 @@
             this.BtAceptar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.Lb_StockMovimiento = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_producto)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -120,14 +122,14 @@
             // 
             this.Dgv_producto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Dgv_producto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Dgv_producto.Location = new System.Drawing.Point(12, 213);
+            this.Dgv_producto.Location = new System.Drawing.Point(13, 265);
             this.Dgv_producto.Name = "Dgv_producto";
             this.Dgv_producto.Size = new System.Drawing.Size(538, 242);
             this.Dgv_producto.TabIndex = 7;
             // 
             // BtSalir
             // 
-            this.BtSalir.Location = new System.Drawing.Point(471, 461);
+            this.BtSalir.Location = new System.Drawing.Point(472, 513);
             this.BtSalir.Name = "BtSalir";
             this.BtSalir.Size = new System.Drawing.Size(75, 23);
             this.BtSalir.TabIndex = 8;
@@ -142,7 +144,7 @@
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(538, 184);
+            this.tabControl1.Size = new System.Drawing.Size(538, 233);
             this.tabControl1.TabIndex = 9;
             // 
             // tabPage1
@@ -165,6 +167,8 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.tabPage2.Controls.Add(this.label7);
+            this.tabPage2.Controls.Add(this.Lb_StockMovimiento);
             this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Controls.Add(this.BtAceptar);
@@ -177,7 +181,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(530, 158);
+            this.tabPage2.Size = new System.Drawing.Size(530, 207);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             // 
@@ -203,7 +207,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(112, 120);
+            this.textBox1.Location = new System.Drawing.Point(104, 171);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 2;
@@ -212,7 +216,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(17, 121);
+            this.label6.Location = new System.Drawing.Point(17, 172);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(69, 16);
             this.label6.TabIndex = 3;
@@ -223,7 +227,7 @@
             this.RadIngreso.AutoSize = true;
             this.RadIngreso.BackColor = System.Drawing.Color.MediumTurquoise;
             this.RadIngreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadIngreso.Location = new System.Drawing.Point(323, 57);
+            this.RadIngreso.Location = new System.Drawing.Point(315, 133);
             this.RadIngreso.Name = "RadIngreso";
             this.RadIngreso.Size = new System.Drawing.Size(77, 20);
             this.RadIngreso.TabIndex = 4;
@@ -236,7 +240,7 @@
             this.RadEgreso.AutoSize = true;
             this.RadEgreso.BackColor = System.Drawing.Color.MediumTurquoise;
             this.RadEgreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadEgreso.Location = new System.Drawing.Point(323, 92);
+            this.RadEgreso.Location = new System.Drawing.Point(315, 168);
             this.RadEgreso.Name = "RadEgreso";
             this.RadEgreso.Size = new System.Drawing.Size(75, 20);
             this.RadEgreso.TabIndex = 5;
@@ -249,7 +253,7 @@
             this.BtAceptar.BackColor = System.Drawing.Color.DodgerBlue;
             this.BtAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtAceptar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtAceptar.Location = new System.Drawing.Point(431, 57);
+            this.BtAceptar.Location = new System.Drawing.Point(423, 133);
             this.BtAceptar.Name = "BtAceptar";
             this.BtAceptar.Size = new System.Drawing.Size(82, 55);
             this.BtAceptar.TabIndex = 6;
@@ -278,13 +282,34 @@
             this.label5.Text = "Descripción";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // Lb_StockMovimiento
+            // 
+            this.Lb_StockMovimiento.AutoSize = true;
+            this.Lb_StockMovimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lb_StockMovimiento.Location = new System.Drawing.Point(147, 94);
+            this.Lb_StockMovimiento.Name = "Lb_StockMovimiento";
+            this.Lb_StockMovimiento.Size = new System.Drawing.Size(0, 16);
+            this.Lb_StockMovimiento.TabIndex = 9;
+            this.Lb_StockMovimiento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(17, 94);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(46, 16);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Stock";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // FormProducto
             // 
             this.AcceptButton = this.BtCarga;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(563, 496);
+            this.ClientSize = new System.Drawing.Size(563, 539);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.BtSalir);
             this.Controls.Add(this.Dgv_producto);
@@ -328,5 +353,7 @@
         private System.Windows.Forms.Label LbCodMovimiento;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label Lb_StockMovimiento;
     }
 }

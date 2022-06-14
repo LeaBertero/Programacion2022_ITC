@@ -26,6 +26,7 @@ namespace FormProductos
             Nuevoprod = new Producto(int.Parse(TxtCodigo.Text), TxtDesc.Text);
             LbCodMovimiento.Text = Nuevoprod.p_Codigo.ToString();
             LbDescMovimiento.Text = Nuevoprod.p_descripcion;
+            Lb_StockMovimiento.Text = "Hay " + Nuevoprod.p_stock.ToString() + " Unidades";
             MessageBox.Show("Producto ingresado");
         }
 
