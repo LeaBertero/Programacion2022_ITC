@@ -38,7 +38,7 @@ namespace FormProductos
             }
             if (TxLetra.Text == "")
             {
-                MessageBox.Show("Imposible salir");
+                MessageBox.Show("Debe Ingresar (S) ");
                 TxLetra.Focus();
                 TxLetra.SelectAll();
             }
