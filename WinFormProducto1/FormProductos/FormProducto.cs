@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades;
 
+
 namespace FormProductos
 {
     public partial class FormProducto : Form
@@ -21,8 +22,10 @@ namespace FormProductos
         private void BtCarga_Click(object sender, EventArgs e)
         {
             Producto Nuevoprod;
+            //Instanciamos utilizando el constructor con parametros
             Nuevoprod = new Producto(int.Parse(TxtCodigo.Text), TxtDesc.Text);
-
+            LbCodMovimiento.Text = Nuevoprod.p_Codigo.ToString();
+            LbDescMovimiento.Text = Nuevoprod.p_descripcion;
             MessageBox.Show("Producto ingresado");
         }
 

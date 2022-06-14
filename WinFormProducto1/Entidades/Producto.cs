@@ -14,12 +14,29 @@ namespace Entidades
         private int Stock;
         #endregion
 
+        public int p_Codigo
+        {
+            set { codigo = value; }
+            get { return codigo; }
+        }
+
+        public string p_descripcion
+        {
+            set { Descripcion = value; }
+            get { return Descripcion; }
+        }
+
+        public int p_stock 
+        {
+            //set { Stock = value; }
+            get { return Stock; }
+        }
+        
         #region Constructores
         public Producto()
         {
 
         }
-
         public Producto(int Cod, string Desc)
         {
             codigo = Cod;
@@ -42,6 +59,12 @@ namespace Entidades
         #endregion
     }
 }
+
+
+
+
+        
+
 
 
 
