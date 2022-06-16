@@ -52,7 +52,7 @@ namespace Entidades
             Stock = Stock + Cantidad;
         }
 
-        public void Salida(int Cant)
+        public void Egreso(int Cant)
         {
             Stock = Stock - Cant;
         }

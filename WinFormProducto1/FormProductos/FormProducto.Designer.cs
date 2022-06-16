@@ -39,6 +39,8 @@
             this.BtSalir = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.LbMostrarProd = new System.Windows.Forms.Label();
+            this.BtBorrar = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label7 = new System.Windows.Forms.Label();
             this.Lb_StockMovimiento = new System.Windows.Forms.Label();
@@ -108,7 +110,7 @@
             // 
             this.TxtDesc.Location = new System.Drawing.Point(91, 51);
             this.TxtDesc.Name = "TxtDesc";
-            this.TxtDesc.Size = new System.Drawing.Size(296, 20);
+            this.TxtDesc.Size = new System.Drawing.Size(312, 20);
             this.TxtDesc.TabIndex = 5;
             this.TxtDesc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -128,6 +130,7 @@
             this.Dgv_producto.Name = "Dgv_producto";
             this.Dgv_producto.Size = new System.Drawing.Size(538, 242);
             this.Dgv_producto.TabIndex = 7;
+            this.Dgv_producto.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_producto_CellContentClick);
             // 
             // BtSalir
             // 
@@ -153,6 +156,8 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.tabPage1.Controls.Add(this.LbMostrarProd);
+            this.tabPage1.Controls.Add(this.BtBorrar);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
@@ -166,6 +171,24 @@
             this.tabPage1.Size = new System.Drawing.Size(530, 207);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
+            // 
+            // LbMostrarProd
+            // 
+            this.LbMostrarProd.AutoSize = true;
+            this.LbMostrarProd.Location = new System.Drawing.Point(11, 165);
+            this.LbMostrarProd.Name = "LbMostrarProd";
+            this.LbMostrarProd.Size = new System.Drawing.Size(0, 13);
+            this.LbMostrarProd.TabIndex = 8;
+            // 
+            // BtBorrar
+            // 
+            this.BtBorrar.Location = new System.Drawing.Point(328, 81);
+            this.BtBorrar.Name = "BtBorrar";
+            this.BtBorrar.Size = new System.Drawing.Size(75, 23);
+            this.BtBorrar.TabIndex = 7;
+            this.BtBorrar.Text = "Borrar";
+            this.BtBorrar.UseVisualStyleBackColor = true;
+            this.BtBorrar.Click += new System.EventHandler(this.BtBorrar_Click);
             // 
             // tabPage2
             // 
@@ -242,6 +265,7 @@
             this.BtAceptar.TabIndex = 6;
             this.BtAceptar.Text = "Aceptar";
             this.BtAceptar.UseVisualStyleBackColor = false;
+            this.BtAceptar.Click += new System.EventHandler(this.BtAceptar_Click);
             // 
             // RadEgreso
             // 
@@ -313,6 +337,7 @@
             this.TxLetra.Name = "TxLetra";
             this.TxLetra.Size = new System.Drawing.Size(84, 22);
             this.TxLetra.TabIndex = 10;
+            this.TxLetra.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label8
             // 
@@ -381,5 +406,7 @@
         private System.Windows.Forms.Label Lb_StockMovimiento;
         private System.Windows.Forms.TextBox TxLetra;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button BtBorrar;
+        private System.Windows.Forms.Label LbMostrarProd;
     }
 }
