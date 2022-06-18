@@ -28,14 +28,18 @@ namespace FormProductos
 
         private void BtCarga_Click(object sender, EventArgs e)
         {
-            Producto Nuevoprod;
             //Instanciamos utilizando el constructor con parametros
+            Producto Nuevoprod;
+
             Nuevoprod = new Producto(int.Parse(TxtCodigo.Text), TxtDesc.Text);
+
             //LbCodMovimiento.Text = Nuevoprod.p_Codigo.ToString();
             LbDescMovimiento.Text = Nuevoprod.p_descripcion;
             Lb_StockMovimiento.Text = "Hay " + Nuevoprod.p_stock.ToString() + " Unidades";
-           
+
+
             MessageBox.Show("Producto ingresado");
+           
 
             int Fila = Dgv_producto.Rows.Add();
 
@@ -58,22 +62,28 @@ namespace FormProductos
             }
             if (TxLetra.Text == "")
             {
-                MessageBox.Show("Debe Ingresar (s) ");
+                MessageBox.Show("Debe Ingresar (s) para salir ");
                 TxLetra.Focus();
                 TxLetra.SelectAll();
+                
             }
-            else
+            if (TxLetra.Text != "")
             {
-                MessageBox.Show("Error - Imposible salir");
+                MessageBox.Show("ingrese una letra valida");
+                if (TxLetra.Text != "")
+                {
+                    MessageBox.Show("Demasiados caracteres");
+                }
             }
+            //else
+            //{
+            //    MessageBox.Show("Error");
+            //}
+            
+
+           
         }
-        //private void BtBorrar_Click(object sender, EventArgs e)
-        //{
-        //    if (Fila != -1)
-        //    {
-        //        Dgv_producto.Rows.RemoveAt(Fila);
-        //    }
-        //}
+        
 
         private void Dgv_producto_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
