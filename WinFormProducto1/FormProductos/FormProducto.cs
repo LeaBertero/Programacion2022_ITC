@@ -31,9 +31,10 @@ namespace FormProductos
             Producto Nuevoprod;
             //Instanciamos utilizando el constructor con parametros
             Nuevoprod = new Producto(int.Parse(TxtCodigo.Text), TxtDesc.Text);
-            LbCodMovimiento.Text = Nuevoprod.p_Codigo.ToString();
+            //LbCodMovimiento.Text = Nuevoprod.p_Codigo.ToString();
             LbDescMovimiento.Text = Nuevoprod.p_descripcion;
             Lb_StockMovimiento.Text = "Hay " + Nuevoprod.p_stock.ToString() + " Unidades";
+           
             MessageBox.Show("Producto ingresado");
 
             int Fila = Dgv_producto.Rows.Add();
@@ -66,13 +67,13 @@ namespace FormProductos
                 MessageBox.Show("Error - Imposible salir");
             }
         }
-        private void BtBorrar_Click(object sender, EventArgs e)
-        {
-            if (Fila != -1)
-            {
-                Dgv_producto.Rows.RemoveAt(Fila);
-            }
-        }
+        //private void BtBorrar_Click(object sender, EventArgs e)
+        //{
+        //    if (Fila != -1)
+        //    {
+        //        Dgv_producto.Rows.RemoveAt(Fila);
+        //    }
+        //}
 
         private void Dgv_producto_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

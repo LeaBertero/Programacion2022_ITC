@@ -40,7 +40,6 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.LbMostrarProd = new System.Windows.Forms.Label();
-            this.BtBorrar = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label7 = new System.Windows.Forms.Label();
             this.Lb_StockMovimiento = new System.Windows.Forms.Label();
@@ -157,7 +156,6 @@
             // 
             this.tabPage1.BackColor = System.Drawing.Color.DarkTurquoise;
             this.tabPage1.Controls.Add(this.LbMostrarProd);
-            this.tabPage1.Controls.Add(this.BtBorrar);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
@@ -179,16 +177,6 @@
             this.LbMostrarProd.Name = "LbMostrarProd";
             this.LbMostrarProd.Size = new System.Drawing.Size(0, 13);
             this.LbMostrarProd.TabIndex = 8;
-            // 
-            // BtBorrar
-            // 
-            this.BtBorrar.Location = new System.Drawing.Point(328, 81);
-            this.BtBorrar.Name = "BtBorrar";
-            this.BtBorrar.Size = new System.Drawing.Size(75, 23);
-            this.BtBorrar.TabIndex = 7;
-            this.BtBorrar.Text = "Borrar";
-            this.BtBorrar.UseVisualStyleBackColor = true;
-            this.BtBorrar.Click += new System.EventHandler(this.BtBorrar_Click);
             // 
             // tabPage2
             // 
@@ -345,9 +333,9 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(218, 519);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(159, 16);
+            this.label8.Size = new System.Drawing.Size(157, 16);
             this.label8.TabIndex = 11;
-            this.label8.Text = "Ingrese \"S\", para salir";
+            this.label8.Text = "Ingrese \"s\", para salir";
             // 
             // FormProducto
             // 
@@ -406,7 +394,6 @@
         private System.Windows.Forms.Label Lb_StockMovimiento;
         private System.Windows.Forms.TextBox TxLetra;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button BtBorrar;
         private System.Windows.Forms.Label LbMostrarProd;
     }
 }

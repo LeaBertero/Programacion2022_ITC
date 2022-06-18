@@ -1,0 +1,14 @@
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\bin\Debug\net6.0\Matricula.BD.deps.json
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\bin\Debug\net6.0\Matricula.BD.runtimeconfig.json
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\bin\Debug\net6.0\Matricula.BD.dll
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\bin\Debug\net6.0\Matricula.BD.pdb
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\obj\Debug\net6.0\Matricula.BD.csproj.AssemblyReference.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\obj\Debug\net6.0\Matricula.BD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\obj\Debug\net6.0\Matricula.BD.AssemblyInfoInputs.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\obj\Debug\net6.0\Matricula.BD.AssemblyInfo.cs
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\obj\Debug\net6.0\Matricula.BD.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\obj\Debug\net6.0\Matricula.BD.dll
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\obj\Debug\net6.0\refint\Matricula.BD.dll
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\obj\Debug\net6.0\Matricula.BD.pdb
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\obj\Debug\net6.0\Matricula.BD.genruntimeconfig.cache
+C:\Users\Leandro\Documents\Programacion_Itc_2022\Matricula\Matricula.BD\obj\Debug\net6.0\ref\Matricula.BD.dll
