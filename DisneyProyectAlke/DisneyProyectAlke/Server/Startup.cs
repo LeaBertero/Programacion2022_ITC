@@ -1,7 +1,9 @@
+using DisneyProyectAlke.Comunes.data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.ResponseCompression;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -23,6 +25,8 @@ namespace DisneyProyectAlke.Server
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddDbContext<dbcontext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("ConexionDb")));
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
