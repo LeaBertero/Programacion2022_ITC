@@ -20,19 +20,20 @@ namespace Prueba_boton_salir
         
         private void Bt_Salir_Click(object sender, EventArgs e)
         {
-            if (TxLetra.Text == "S")
+            if (TxLetra.Text == "s")
             {
                 Close();
             }
             if (TxLetra.Text == "")
             {
-                MessageBox.Show("Imposible salir");
+                MessageBox.Show("Ingrese (s), para salir");
                 TxLetra.Focus();
                 TxLetra.SelectAll();
+                TxLetra.Text = null;
             }
             else
             {
-                MessageBox.Show("Palabra incorrecta - Imposible salir");
+                MessageBox.Show("Caracter/es no validos - Imposible salir");
             }
         }
     }

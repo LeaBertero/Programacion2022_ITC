@@ -23,14 +23,14 @@ namespace Prueba
 
         private void Btseleccion_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked || checkBox2.Checked || checkBox3.Checked || checkBox4.Checked == false)
+            if (checkBox1.Checked || checkBox2.Checked && checkBox3.Checked || checkBox4.Checked == false)
             {
                 MessageBox.Show("No se ha seleccionado nada");
             }
-            else if (checkBox1.Checked || checkBox2.Checked || checkBox3.Checked || checkBox4.Checked == true)
-            {
-                MessageBox.Show("No puede seleccionar todas las opciones");
-            }
+            //else if (checkBox1.Checked && checkBox2.Checked && checkBox3.Checked && checkBox4.Checked == true)
+            //{
+            //    MessageBox.Show("No puede seleccionar todas las opciones");
+            //}
 
 
         }

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisneyProyectAlke.Server", "DisneyProyectAlke\Server\DisneyProyectAlke.Server.csproj", "{15381DAD-6214-490C-8073-160BD58B70C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisneyProyectAlke.Client", "DisneyProyectAlke\Client\DisneyProyectAlke.Client.csproj", "{436E8895-54B7-4538-AAD3-EE4BD766A024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisneyProyectAlke.Shared", "DisneyProyectAlke\Shared\DisneyProyectAlke.Shared.csproj", "{3ADF2D0B-8430-4DD6-B614-320BD82F0626}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15381DAD-6214-490C-8073-160BD58B70C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15381DAD-6214-490C-8073-160BD58B70C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15381DAD-6214-490C-8073-160BD58B70C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15381DAD-6214-490C-8073-160BD58B70C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{436E8895-54B7-4538-AAD3-EE4BD766A024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436E8895-54B7-4538-AAD3-EE4BD766A024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436E8895-54B7-4538-AAD3-EE4BD766A024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436E8895-54B7-4538-AAD3-EE4BD766A024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADF2D0B-8430-4DD6-B614-320BD82F0626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADF2D0B-8430-4DD6-B614-320BD82F0626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADF2D0B-8430-4DD6-B614-320BD82F0626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADF2D0B-8430-4DD6-B614-320BD82F0626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FFF4026-8139-40C4-B45F-ADC3EF1E0692}
+	EndGlobalSection
+EndGlobal
