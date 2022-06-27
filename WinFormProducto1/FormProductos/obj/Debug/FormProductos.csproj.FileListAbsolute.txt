@@ -12,3 +12,17 @@ C:\Users\Leandro\Documents\Programacion_Itc_2022\WinFormProducto1\FormProductos\
 C:\Users\Leandro\Documents\Programacion_Itc_2022\WinFormProducto1\FormProductos\obj\Debug\FormProductos.csproj.CopyComplete
 C:\Users\Leandro\Documents\Programacion_Itc_2022\WinFormProducto1\FormProductos\obj\Debug\FormProductos.exe
 C:\Users\Leandro\Documents\Programacion_Itc_2022\WinFormProducto1\FormProductos\obj\Debug\FormProductos.pdb
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\bin\Debug\FormProductos.exe.config
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\bin\Debug\FormProductos.exe
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\bin\Debug\FormProductos.pdb
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\bin\Debug\Entidades.dll
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\bin\Debug\Entidades.pdb
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\obj\Debug\FormProductos.csproj.AssemblyReference.cache
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\obj\Debug\FormProductos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\obj\Debug\FormProductos.FormProducto.resources
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\obj\Debug\FormProductos.Properties.Resources.resources
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\obj\Debug\FormProductos.csproj.GenerateResource.cache
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\obj\Debug\FormProductos.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\obj\Debug\FormProductos.csproj.CopyComplete
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\obj\Debug\FormProductos.exe
+C:\Users\Leandro\source\repos\Programacion2022_ITC\WinFormProducto1\FormProductos\obj\Debug\FormProductos.pdb

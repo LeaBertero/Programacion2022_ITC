@@ -28,12 +28,17 @@ namespace FormProductos
 
         private void BtCarga_Click(object sender, EventArgs e)
         {
+            //if (TxtStock == null)
+            //{
+            //    MessageBox.Show("No puede dejar vacio este segmento");
+            //}
+            
             //Instanciamos utilizando el constructor con parametros
             Producto Nuevoprod;
 
             Nuevoprod = new Producto(int.Parse(TxtCodigo.Text), TxtDesc.Text);
 
-            //LbCodMovimiento.Text = Nuevoprod.p_Codigo.ToString();
+            LbCodMovimiento.Text = Nuevoprod.p_Codigo.ToString();
             LbDescMovimiento.Text = Nuevoprod.p_descripcion;
             Lb_StockMovimiento.Text = "Hay " + Nuevoprod.p_stock.ToString() + " Unidades";
 
@@ -41,16 +46,16 @@ namespace FormProductos
             MessageBox.Show("Producto ingresado");
            
 
-            int Fila = Dgv_producto.Rows.Add();
+            int Fila = Dgv_producto.Rows.Add(Nuevoprod.p_Codigo.ToString,);
 
 
             TxtCodigo.Text = null;
             TxtDesc.Text = null;
             TxtStock.Text = null;
             
-            Dgv_producto.Rows[Fila].Cells[0].Value = TxtCodigo.Text;
-            Dgv_producto.Rows[Fila].Cells[1].Value = TxtDesc.Text;
-            Dgv_producto.Rows[Fila].Cells[2].Value = TxtStock.Text;
+            //Dgv_producto.Rows[Fila].Cells[0].Value = TxtCodigo.Text;
+            //Dgv_producto.Rows[Fila].Cells[1].Value = TxtDesc.Text;
+            //Dgv_producto.Rows[Fila].Cells[2].Value = TxtStock.Text;
 
         }
 
