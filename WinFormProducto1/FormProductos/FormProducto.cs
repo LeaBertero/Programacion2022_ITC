@@ -44,9 +44,9 @@ namespace FormProductos
 
 
             MessageBox.Show("Producto ingresado");
-           
 
-            int Fila = Dgv_producto.Rows.Add(Nuevoprod.p_Codigo.ToString,);
+
+            int Fila = Dgv_producto.Rows.Add(Nuevoprod.p_Codigo.ToString());
 
 
             TxtCodigo.Text = null;
