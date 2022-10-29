@@ -12,9 +12,9 @@ namespace PruebaSuma
 {
     public partial class Suma : Form
     {
-        int a = 2;
-        int b = 2;
-        int res;
+        int num1;
+        int num2;
+        int resultado;
 
         public Suma()
         {
@@ -26,15 +26,15 @@ namespace PruebaSuma
             //TxtRes.Enabled = false;
 
             
-            a = Convert.ToInt32(TxtNum1.Text);
-            b = Convert.ToInt32(TxtNum2.Text);
+            num1 = Convert.ToInt32(TxtNum1.Text);
+            num2 = Convert.ToInt32(TxtNum2.Text);
             //res.(ToString);
 
-            res = a + b;
+            resultado = num1 + num2;
 
-            TxtRes.Text = Convert.ToString(res);
+            TxtRes.Text = Convert.ToString(resultado);
 
-            //return res;
+            //return resultado;
         }
 
         private void BtSalir_Click(object sender, EventArgs e)

@@ -9,3 +9,14 @@ C:\Users\Leandro\Documents\Programacion_Itc_2022\PruebaSuma\PruebaSuma\obj\Debug
 C:\Users\Leandro\Documents\Programacion_Itc_2022\PruebaSuma\PruebaSuma\obj\Debug\PruebaSuma.csproj.CoreCompileInputs.cache
 C:\Users\Leandro\Documents\Programacion_Itc_2022\PruebaSuma\PruebaSuma\obj\Debug\PruebaSuma.exe
 C:\Users\Leandro\Documents\Programacion_Itc_2022\PruebaSuma\PruebaSuma\obj\Debug\PruebaSuma.pdb
+C:\Users\Leandro\source\repos\LeaBertero\Programacion2022_ITC\PruebaSuma\PruebaSuma\bin\Debug\PruebaSuma.exe.config
+C:\Users\Leandro\source\repos\LeaBertero\Programacion2022_ITC\PruebaSuma\PruebaSuma\bin\Debug\PruebaSuma.exe
+C:\Users\Leandro\source\repos\LeaBertero\Programacion2022_ITC\PruebaSuma\PruebaSuma\bin\Debug\PruebaSuma.pdb
+C:\Users\Leandro\source\repos\LeaBertero\Programacion2022_ITC\PruebaSuma\PruebaSuma\obj\Debug\PruebaSuma.csproj.AssemblyReference.cache
+C:\Users\Leandro\source\repos\LeaBertero\Programacion2022_ITC\PruebaSuma\PruebaSuma\obj\Debug\PruebaSuma.csproj.SuggestedBindingRedirects.cache
+C:\Users\Leandro\source\repos\LeaBertero\Programacion2022_ITC\PruebaSuma\PruebaSuma\obj\Debug\PruebaSuma.Suma.resources
+C:\Users\Leandro\source\repos\LeaBertero\Programacion2022_ITC\PruebaSuma\PruebaSuma\obj\Debug\PruebaSuma.Properties.Resources.resources
+C:\Users\Leandro\source\repos\LeaBertero\Programacion2022_ITC\PruebaSuma\PruebaSuma\obj\Debug\PruebaSuma.csproj.GenerateResource.cache
+C:\Users\Leandro\source\repos\LeaBertero\Programacion2022_ITC\PruebaSuma\PruebaSuma\obj\Debug\PruebaSuma.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\source\repos\LeaBertero\Programacion2022_ITC\PruebaSuma\PruebaSuma\obj\Debug\PruebaSuma.exe
+C:\Users\Leandro\source\repos\LeaBertero\Programacion2022_ITC\PruebaSuma\PruebaSuma\obj\Debug\PruebaSuma.pdb
